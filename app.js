@@ -27,9 +27,3 @@ boogerButton.addEventListener('click', () => {
     // update the textContent of the span
     boogerSpan.textContent = sum;
 });
-
-const greeting = makeGreeting('dani');
-const greeting2 = makeGreeting('other person');
-const greeting3 = makeGreeting('another other person');
-
-console.log(greeting, greeting2, greeting3);
